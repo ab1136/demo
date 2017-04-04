@@ -1,0 +1,10 @@
+{
+    "name": "huangjj/demo",
+    "description": "huangjj composer study",
+    "type": "porject",
+    "require": {
+        "houdunwang/hdphp": "*"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
