@@ -6,5 +6,13 @@
         "houdunwang/hdphp": "*"
     },
     "license": "MIT",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload":
+    {
+      "psr-4":
+      {
+        "core\\":"core",
+        "web\\":"web"
+      }
+    }
 }

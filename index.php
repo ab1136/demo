@@ -1,7 +1,8 @@
 <?php
 
+    include_once "vendor/autoload.php";
 
-    Bootstrap::run();
+    core\Bootstrap::run();
 
 
 ?>
