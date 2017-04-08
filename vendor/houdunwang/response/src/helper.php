@@ -43,7 +43,7 @@ if ( ! function_exists( 'clientIp' ) ) {
 			}
 		}
 		$long     = ip2long( $ip );
-		$clientIp = $long ? [ $ip, $long ] : [ "0.0.0.0", 0 ];
+		$clientIp = $long ? array( $ip, $long ) : array( "0.0.0.0", 0 );
 
 		return $clientIp[ $type ];
 	}
