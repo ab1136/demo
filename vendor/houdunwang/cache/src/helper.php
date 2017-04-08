@@ -52,7 +52,7 @@ if ( ! function_exists( 'd' ) ) {
 	 *
 	 * @return mixed
 	 */
-	function d( $name, $value = '[get]', $expire = 0, $field = [ ] ) {
+	function d( $name, $value = '[get]', $expire = 0, $field = array() ) {
 		static $instance = null;
 		if ( is_null( $instance ) ) {
 			$instance = \houdunwang\cache\Cache::driver( 'mysql' );
