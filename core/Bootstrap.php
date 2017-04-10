@@ -26,6 +26,11 @@
             $obj=new $class;
             $obj->$action;
 
+            dd($class);
+            dd($action);
+            dd($obj);
+
+
         }
     }
 
