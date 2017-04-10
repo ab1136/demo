@@ -34,7 +34,7 @@
 
             //$obj=new $class;
             //$obj->$action;
-            (new $class)->$action;
+            (new $class)->$action();
 
             echo '<br/>';
 
