@@ -28,10 +28,6 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         array (
             'web\\' => 4,
         ),
-        's' => 
-        array (
-            'system\\' => 7,
-        ),
         'h' => 
         array (
             'houdunwang\\zip\\' => 15,
@@ -85,10 +81,6 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         array (
             'core\\' => 5,
         ),
-        'a' => 
-        array (
-            'app\\' => 4,
-        ),
         'O' => 
         array (
             'OSS\\' => 4,
@@ -99,10 +91,6 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         'web\\' => 
         array (
             0 => __DIR__ . '/../..' . '/web',
-        ),
-        'system\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/houdunwang/hdphp/system',
         ),
         'houdunwang\\zip\\' => 
         array (
@@ -291,10 +279,6 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         'core\\' => 
         array (
             0 => __DIR__ . '/../..' . '/core',
-        ),
-        'app\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/houdunwang/hdphp/app',
         ),
         'OSS\\' => 
         array (
