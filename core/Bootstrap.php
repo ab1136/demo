@@ -10,7 +10,7 @@
 
         public static function parseUrl()
         {
-            dd($_SESSION);
+            dd2($_SESSION);
         }
     }
 
