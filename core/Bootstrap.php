@@ -14,6 +14,8 @@
             {
                 $info=explode('/',$_GET['s']);
                 dd($info);
+                $class= "\web\controller\\" . ucfirst($info[0]);
+                $action=$info[1];
             }
             else
             {
@@ -21,7 +23,8 @@
                 $action='show';
             }
 
-            //dd2($_SERVER);
+            (new $class)->$action();
+
         }
     }
 
