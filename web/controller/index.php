@@ -1,7 +1,7 @@
 <?php
     namespace web\controller;
 
-    class IndexController
+    class Index
     {
         public function show()
         {
