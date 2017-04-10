@@ -38,7 +38,7 @@
 
             echo '<br/>';
 
-            $o=\web\controller\Index();
+            $o=\web\controller\Index;
 
             var_export(new $o);
 
