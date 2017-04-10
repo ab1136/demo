@@ -5,7 +5,7 @@
     {
         public static function run ()
         {
-            echo 'Bootstrap';
+            self::parseUrl();
         }
 
         public static function parseUrl()
