@@ -36,6 +36,14 @@
             //$obj->$action;
             (new $class)->$action;
 
+            echo '<br/>';
+
+            $o=\web\controller\Index();
+
+            var_export(new $o);
+
+            $o->show();
+
 
         }
     }
