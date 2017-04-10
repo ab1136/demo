@@ -24,13 +24,18 @@
             }
 
             var_export($class);
+            echo '<br/>';
             var_export($action);
+            echo '<br/>';
+            var_export(new $class);
+            echo '<br/>';
 
 
-            $obj=new $class;
-            $obj->$action;
 
-            var_export($obj);
+            //$obj=new $class;
+            //$obj->$action;
+            (new $class)->$action;
+
 
         }
     }
