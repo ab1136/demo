@@ -15,8 +15,8 @@
       ],
       "psr-4":
       {
-        "core\\":"core",
-        "web\\":"web"
+        "core\\":"core/",
+        "web\\":"web/"
       }
     }
 }
