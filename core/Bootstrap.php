@@ -23,7 +23,8 @@
                 $action='show';
             }
 
-            (new $class)->$action();
+            $obj=new $class;
+            $obj->$action;
 
         }
     }
