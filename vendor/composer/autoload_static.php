@@ -21,6 +21,7 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         '0fdb93813e3129bfd50d293224a2095e' => __DIR__ . '/..' . '/houdunwang/error/src/helper.php',
         'b11d97b9b970a5b38ef908a59daee669' => __DIR__ . '/..' . '/houdunwang/cli/src/helper.php',
         '252420c3cb244c300529dbbdc1b6f21a' => __DIR__ . '/..' . '/houdunwang/framework/src/helper.php',
+        'fdf0bae3c66ec3da62fba5281daea473' => __DIR__ . '/../..' . '/core/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (

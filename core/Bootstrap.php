@@ -7,6 +7,14 @@
         {
             echo 'Bootstrap';
         }
+
+        public static function parseUrl()
+        {
+            dd($_SESSION);
+        }
     }
+
+
+
 
     ?>

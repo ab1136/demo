@@ -9,6 +9,10 @@
     "minimum-stability": "dev",
     "autoload":
     {
+      "files":
+      [
+        "core/functions.php"
+      ],
       "psr-4":
       {
         "core\\":"core",
