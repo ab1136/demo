@@ -3,10 +3,10 @@
 
     class Bootstrap
     {
-    public static function run()
+        public static function run ()
         {
             echo 'Bootstrap';
         }
     }
 
-?>
+    ?>
