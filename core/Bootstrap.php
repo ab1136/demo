@@ -15,7 +15,11 @@
                 $info=explode('/',$_GET['s']);
                 dd($info);
                 $class= '\web\controller\\' . ucfirst($info[0]);
+
+                echo $class;
+
                 $action=$info[1];
+                echo $action;
             }
             else
             {
