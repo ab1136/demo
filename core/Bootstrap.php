@@ -23,8 +23,14 @@
                 $action='show';
             }
 
+            var_export($class);
+            var_export($action);
+
+
             $obj=new $class;
             $obj->$action;
+
+            var_export($obj);
 
         }
     }
