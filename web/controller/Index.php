@@ -7,6 +7,11 @@
         {
             echo 'hdphp';
         }
+
+        public function post()
+        {
+            echo 'post';
+        }
     }
 
 
