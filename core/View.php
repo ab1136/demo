@@ -11,11 +11,13 @@
         public function make ($file)
         {
             $this->file = "view/".$file.".html";
+            return $this;
         }
 
         public function with($name,$value)
         {
             $this->vars[$name]=$value;
+            return $this;
         }
 
         public function __toString()

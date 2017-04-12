@@ -9,19 +9,17 @@
 
         protected $view;
 
-        public function __construct()
+        public function __construct ()
         {
-            $this->view=new View();
+            $this->view = new View();
         }
 
-        public function show()
+        public function show ()
         {
-            $this->view->make('index');
-
-            echo $this->view;
+            return $this->view->make( 'index' );
         }
 
-        public function post()
+        public function post ()
         {
             echo 'post';
         }

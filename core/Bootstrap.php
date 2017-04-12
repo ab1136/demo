@@ -23,7 +23,7 @@
                 $action='show';
             }
 
-            (new $class)->$action();
+            echo (new $class)->$action();
 
         }
     }
