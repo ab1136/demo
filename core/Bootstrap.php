@@ -23,27 +23,7 @@
                 $action='show';
             }
 
-            var_export($class);
-            echo '<br/>';
-            var_export($action);
-            echo '<br/>';
-            var_export(new $class);
-            echo '<br/>';
-
-
-
-            //$obj=new $class;
-            //$obj->$action;
             (new $class)->$action();
-
-            echo '<br/>';
-
-            $o=new \web\controller\Index;
-
-            var_export(new $o);
-
-            $o->show();
-
 
         }
     }
