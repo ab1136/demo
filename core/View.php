@@ -22,6 +22,8 @@
 
         public function __toString()
         {
+            extract($this->vars);
+
             include $this->file;
             return '';
         }
