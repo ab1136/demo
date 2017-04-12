@@ -17,6 +17,8 @@
         public function show()
         {
             $this->view->make('index');
+
+            echo $this->view;
         }
 
         public function post()
