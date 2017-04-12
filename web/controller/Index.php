@@ -16,7 +16,7 @@
 
         public function show ()
         {
-            return $this->view->make( 'index' )->with('version','1.0');
+            return $this->view->make( 'index' )->with('version','版本 1.0');
         }
 
         public function post ()
