@@ -5,8 +5,6 @@
     {
         public static function run ()
         {
-            echo 'run';
-            exit();
             self::parseUrl();
         }
 
@@ -16,12 +14,12 @@
             {
                 $info=explode('/',$_GET['s']);
                 //dd($info);
-                $class= '\web\controller\\' . ucfirst($info[0]);
+                $class= 'web\controller\\' . ucfirst($info[0]);
                 $action=$info[1];
             }
             else
             {
-                $class="\web\controller\Index";
+                $class="web\controller\Index";
                 $action='show';
             }
 
