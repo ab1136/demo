@@ -5,6 +5,8 @@
     {
         public static function run ()
         {
+            echo 'run';
+            exit();
             self::parseUrl();
         }
 
