@@ -3,7 +3,8 @@
     "description": "huangjj composer study",
     "type": "porject",
     "require": {
-        "houdunwang/hdphp": "*"
+        "houdunwang/hdphp": "*",
+        "gregwar/captcha": "dev-master"
     },
     "license": "MIT",
     "minimum-stability": "dev",

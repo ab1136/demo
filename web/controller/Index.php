@@ -21,7 +21,7 @@
 
         public function post ()
         {
-            echo 'post';
+            return $this->view->make('login');
         }
     }
 

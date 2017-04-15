@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fc3fdbe5dc20d4414797bfe4bafd57a",
+    "content-hash": "7abd6748ed47548ebcd1836772341354",
     "packages": [
         {
             "name": "aliyuncs/oss-sdk-php",
@@ -88,6 +88,54 @@
             "description": "BaconQrCode is a QR code generator for PHP.",
             "homepage": "https://github.com/Bacon/BaconQrCode",
             "time": "2016-01-09T22:55:35+00:00"
+        },
+        {
+            "name": "gregwar/captcha",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gregwar/Captcha.git",
+                "reference": "65b73ff251d06b7048b3759b6febb5837e6b0655"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Gregwar/Captcha/65b73ff251d06b7048b3759b6febb5837e6b0655.zip",
+                "reference": "65b73ff251d06b7048b3759b6febb5837e6b0655",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "captcha",
+            "autoload": {
+                "psr-4": {
+                    "Gregwar\\Captcha\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Passault",
+                    "email": "g.passault@gmail.com",
+                    "homepage": "http://www.gregwar.com/"
+                },
+                {
+                    "name": "Jeremy Livingston",
+                    "email": "jeremy.j.livingston@gmail.com"
+                }
+            ],
+            "description": "Captcha generator",
+            "homepage": "https://github.com/Gregwar/Captcha",
+            "keywords": [
+                "bot",
+                "captcha",
+                "spam"
+            ],
+            "time": "2017-04-13 07:23:12"
         },
         {
             "name": "houdunwang/alipay",
@@ -1208,12 +1256,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/houdunwang/hdphp.git",
-                "reference": "25dd38edc2bc1805789b64ac135b42c77dccb696"
+                "reference": "ee7866317c225a61b34a20d4768bc4e51d756786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/houdunwang/hdphp/25dd38edc2bc1805789b64ac135b42c77dccb696.zip",
-                "reference": "25dd38edc2bc1805789b64ac135b42c77dccb696",
+                "url": "https://files.phpcomposer.com/files/houdunwang/hdphp/ee7866317c225a61b34a20d4768bc4e51d756786.zip",
+                "reference": "ee7866317c225a61b34a20d4768bc4e51d756786",
                 "shasum": ""
             },
             "require": {
@@ -1244,7 +1292,7 @@
                 "hdphp",
                 "houdunwang"
             ],
-            "time": "2017-03-29T07:17:46+00:00"
+            "time": "2017-04-11 14:52:36"
         },
         {
             "name": "houdunwang/html",
@@ -2398,7 +2446,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "gregwar/captcha": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

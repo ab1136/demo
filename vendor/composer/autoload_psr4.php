@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'web\\' => array($baseDir . '/web'),
+    'system\\' => array($vendorDir . '/houdunwang/hdphp/system'),
     'houdunwang\\zip\\' => array($vendorDir . '/houdunwang/zip/src'),
     'houdunwang\\xml\\' => array($vendorDir . '/houdunwang/xml/src'),
     'houdunwang\\wechat\\' => array($vendorDir . '/houdunwang/wechat/src'),
@@ -54,5 +55,7 @@ return array(
     'houdunwang\\aliyunsms\\' => array($vendorDir . '/houdunwang/aliyunsms/src'),
     'houdunwang\\alipay\\' => array($vendorDir . '/houdunwang/alipay/src'),
     'core\\' => array($baseDir . '/core'),
+    'app\\' => array($vendorDir . '/houdunwang/hdphp/app'),
     'OSS\\' => array($vendorDir . '/aliyuncs/oss-sdk-php/src/OSS'),
+    'Gregwar\\Captcha\\' => array($vendorDir . '/gregwar/captcha'),
 );

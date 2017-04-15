@@ -29,6 +29,10 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         array (
             'web\\' => 4,
         ),
+        's' => 
+        array (
+            'system\\' => 7,
+        ),
         'h' => 
         array (
             'houdunwang\\zip\\' => 15,
@@ -82,9 +86,17 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         array (
             'core\\' => 5,
         ),
+        'a' => 
+        array (
+            'app\\' => 4,
+        ),
         'O' => 
         array (
             'OSS\\' => 4,
+        ),
+        'G' => 
+        array (
+            'Gregwar\\Captcha\\' => 16,
         ),
     );
 
@@ -92,6 +104,10 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         'web\\' => 
         array (
             0 => __DIR__ . '/../..' . '/web',
+        ),
+        'system\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/houdunwang/hdphp/system',
         ),
         'houdunwang\\zip\\' => 
         array (
@@ -281,9 +297,17 @@ class ComposerStaticInit20990459b566c55f49cda0efecf0455e
         array (
             0 => __DIR__ . '/../..' . '/core',
         ),
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/houdunwang/hdphp/app',
+        ),
         'OSS\\' => 
         array (
             0 => __DIR__ . '/..' . '/aliyuncs/oss-sdk-php/src/OSS',
+        ),
+        'Gregwar\\Captcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gregwar/captcha',
         ),
     );
 
