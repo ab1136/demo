@@ -4,6 +4,8 @@
 
     use core\View;
 
+    use Gregwar\Captcha\CaptchaBuilder;
+
     class Index
     {
 
@@ -22,6 +24,12 @@
         public function post ()
         {
             return $this->view->make('login');
+        }
+
+        public function code()
+        {
+            $builder = new CaptchaBuilder;
+            $builder->build();
         }
     }
 
