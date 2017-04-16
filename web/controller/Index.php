@@ -24,7 +24,7 @@
         public function login ()
         {
 
-            return $this->view->make('login')->with("code",'index.php?s=index/code');
+            return $this->view->make('login')->with("code",'?s=index/code');
         }
 
         public function code()
