@@ -35,7 +35,7 @@
             header('Content-type: image/jpeg');
             $builder=new CaptchaBuilder();
             $builder->build();
-            $_SESSION['phrase']=$builder->getPhrase();
+            //$_SESSION['phrase']=$builder->getPhrase();
             $builder->output();
 
         }
