@@ -33,6 +33,7 @@
 
             header('Content-type: image/jpeg');
             $builder=new CaptchaBuilder();
+            $builder->build();
             $builder->output();
 
         }
