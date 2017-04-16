@@ -21,9 +21,10 @@
             return $this->view->make( 'index' )->with('version','版本 1.0');
         }
 
-        public function post ()
+        public function login ()
         {
-            return $this->view->make('login');
+
+            return $this->view->make('login')->with("code",'index.php?s=index/code');
         }
 
         public function code()
@@ -34,6 +35,7 @@
             header('Content-type: image/jpeg');
             $builder=new CaptchaBuilder();
             $builder->build();
+            $_SESSION['phrase']=$builder->getPhrase();
             $builder->output();
 
         }
