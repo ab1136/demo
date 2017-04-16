@@ -28,8 +28,13 @@
 
         public function code()
         {
-            $builder = new CaptchaBuilder;
-            $builder->build();
+            //$builder = new CaptchaBuilder;
+            //$builder->build();
+
+            header('Content-type: image/jpeg');
+            $builder=new CaptchaBuilder();
+            $builder->output();
+
         }
     }
 
