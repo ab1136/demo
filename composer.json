@@ -4,8 +4,7 @@
     "type": "porject",
     "require": {
         "houdunwang/hdphp": "*",
-        "gregwar/captcha": "dev-master",
-        "intervention/image": "^2.3@dev"
+        "gregwar/captcha": "dev-master"
     },
     "license": "MIT",
     "minimum-stability": "dev",
