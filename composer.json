@@ -4,7 +4,8 @@
     "type": "porject",
     "require": {
         "houdunwang/hdphp": "*",
-        "gregwar/captcha": "dev-master"
+        "gregwar/captcha": "dev-master",
+        "intervention/image": "^2.3@dev"
     },
     "license": "MIT",
     "minimum-stability": "dev",
@@ -19,5 +20,11 @@
         "core\\":"core/",
         "web\\":"web/"
       }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }
